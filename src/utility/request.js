@@ -1,5 +1,5 @@
 import axios from 'axios';
 
-export let postRequest = (data, url) => {
-    return axios.post(url, data)
+export let postRequest = (data, url, options) => {
+    return axios.post(url, data, options)
 };

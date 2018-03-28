@@ -4,7 +4,7 @@ export const config = {
     mockServerAdress: mockServerUrl,
     requestConfig: {
         baseURL: mockServerUrl,
-        timeout: 10000,
+        timeout: 8000,
         transformRequest: [(data) => JSON.stringify(data.data)],
         headers: {
           'Accept': 'application/json',
