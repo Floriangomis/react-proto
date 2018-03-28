@@ -1,0 +1,9 @@
+@import 'vars';
+@import 'step/login';
+@import 'step/home';
+@import 'step/page-not-found';
+
+body {
+    color: $mainColorFontColor;
+    font-family: sans-serif;
+}

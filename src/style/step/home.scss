@@ -1,0 +1,61 @@
+//  Home page 
+.filter {
+    float: left;
+}
+.container-data{
+    padding: 10px;
+    margin: 30px;
+    background-color: $mainGray;
+
+
+    .avatar {
+        float: left;
+        margin-bottom: 10px;
+
+        img {
+            width: 90px;
+            border-radius: 70px;
+        }
+    }
+
+    .info-container {
+        float: left;
+        padding-left: 10px;
+
+        .title {
+            font-size: 20px;
+            float: left;
+        }
+        
+        .tags {
+            float: left;
+            
+            span {
+                margin-left: 20px;
+                background-color: $tagsColor;
+                color: $mainColorFontColor;
+                padding: 6px 10px;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+        }
+
+        .info {
+            margin-top: 5px;
+        }
+    }
+
+    .content {
+        padding: 20px 10px;
+        min-height: 100px;
+    }
+
+    .separate-line {
+        border-bottom: 1px solid $separateLine;
+    }
+
+    .clearFix {
+        clear: both;
+    }
+
+}

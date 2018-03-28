@@ -1,0 +1,68 @@
+.login-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  width: 132px;
+  margin: 0 auto;
+  color: #222f3e;
+  top: 40vh;
+  position: relative; }
+  .login-container label {
+    text-align: left; }
+  .login-container .login-btn button {
+    border: none;
+    background-color: #8395a7;
+    padding: 6px 24px; }
+
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #222f3e;
+  margin-bottom: 20px; }
+
+.filter {
+  float: left; }
+
+.container-data {
+  padding: 10px;
+  margin: 30px;
+  background-color: #8395a7; }
+  .container-data .avatar {
+    float: left;
+    margin-bottom: 10px; }
+    .container-data .avatar img {
+      width: 90px;
+      border-radius: 70px; }
+  .container-data .info-container {
+    float: left;
+    padding-left: 10px; }
+    .container-data .info-container .title {
+      font-size: 20px;
+      float: left; }
+    .container-data .info-container .tags {
+      float: left; }
+      .container-data .info-container .tags span {
+        margin-left: 20px;
+        background-color: #ee5253;
+        color: #222f3e;
+        padding: 6px 10px;
+        border-radius: 10px;
+        cursor: pointer; }
+    .container-data .info-container .info {
+      margin-top: 5px; }
+  .container-data .content {
+    padding: 20px 10px;
+    min-height: 100px; }
+  .container-data .separate-line {
+    border-bottom: 1px solid #ff9f43; }
+  .container-data .clearFix {
+    clear: both; }
+
+.page-not-found {
+  text-align: center;
+  position: relative;
+  top: 40vh; }
+
+body {
+  color: #222f3e;
+  font-family: sans-serif; }
