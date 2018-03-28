@@ -19,12 +19,12 @@ import { sortArrayByRelevancy, sortArrayByTime, createObjectFromArray, formatDat
                 <React.Fragment>
                     <div> Filter : </div>
                     <div className="filter">
-                        <button onClick={ this.sortByRelevancy.bind(this, true) }> Desc Relevancy </button>
-                        <button onClick={ this.sortByRelevancy.bind(this, false) }> Asc Relevancy </button>
+                        <button onClick={ () => { this.sortByRelevancy(true) } }> Desc Relevancy </button>
+                        <button onClick={ () => { this.sortByRelevancy(false) } }> Asc Relevancy </button>
                     </div>
                     <div className="filter">
-                        <button onClick={ this.sortByTime.bind(this, true) }> Desc Timestamp </button>
-                        <button onClick={ this.sortByTime.bind(this, false) }> Asc Timestamp </button>
+                        <button onClick={ () => { this.sortByTime(true) } }> Desc Timestamp </button>
+                        <button onClick={ () => { this.sortByTime(false) } }> Asc Timestamp </button>
                     </div>
                     <div className="clearFix"></div>
                     { 

@@ -7,8 +7,8 @@ class LoginForm extends React.Component {
 
     sendMessage = e => {
         const loginInformations = {
-            login: this.loginRef.current.value,
-            password: this.passwordRef.current.value
+            login: this.loginRef.value.value,
+            password: this.passwordRef.value.value
         }
         this.props.loginBtnHandler(loginInformations);
         this.goToHome();
@@ -31,7 +31,7 @@ class LoginForm extends React.Component {
                         <input type="password" ref={this.passwordRef} name="password" />
                     </div>
                     <div className="login-btn">
-                        <button onClick={this.sendMessage}> Log in </button>
+                        <button onClick={ () =>  { this.sendMessage() } }> Log in </button>
                     </div>
                 </div>
             </React.Fragment>
